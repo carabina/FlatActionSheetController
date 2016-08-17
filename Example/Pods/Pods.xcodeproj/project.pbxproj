@@ -97,7 +97,6 @@
 		A76AE1344634A61F11784DDDABE8C00D /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEE0AA407B501B27CD879CF8E608E81 /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8B06933352034483F1654F21432FDCF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4A4C40B59567B2C0BED393FA0EB20 /* Closures.swift */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
-		AA0DFD0E40C326F24D35CECB37FFEE8F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B62E06072E6C40004B5FE46B3890F6 /* ReplaceMe.swift */; };
 		ACB09D78794FB7AEA6EC6EDDADD38DAD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F03A1A302C6C29F7707D1545C60B509D /* QCKDSL.m */; };
 		AD2D4354F429E4DBD49D327BD408A3EB /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */; };
 		B1825287DE872A038A4A44623EA54C1B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA3A806920B5D6DC56ED011270DE1F /* Configuration.swift */; };
@@ -128,6 +127,7 @@
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = BF446B28545341AFF094A94F8633BDF6 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */; };
 		ED6A0B20E661EA13A99C377E2213DC5F /* NimbleSnapshotsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F965743749243B4108DC054D9C80B /* NimbleSnapshotsConfiguration.swift */; };
+		EF3F48901D64EF5E0091BAD4 /* FlatActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F488F1D64EF5E0091BAD4 /* FlatActionSheetController.swift */; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582674A6983604C34B81F809F76255 /* UIKit.framework */; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609119DC233417D2E53038D69EDA53D /* QuartzCore.framework */; };
 		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */; };
@@ -316,7 +316,6 @@
 		BF446B28545341AFF094A94F8633BDF6 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C2C9D54735C982473CFF0644E3A03B67 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		C451DC0D60FD3DC965A3ED74A62F67C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4B62E06072E6C40004B5FE46B3890F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		C6DA3A806920B5D6DC56ED011270DE1F /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		C8BB55D07CA11D44DC825C6A0679C0D2 /* FlatActionSheetController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatActionSheetController.xcconfig; sourceTree = "<group>"; };
 		C8F7613EE4BEDF2960332C8D3F3C13D3 /* Pods-FlatActionSheetController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlatActionSheetController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -349,6 +348,7 @@
 		EC724D753931716676AE42503730DBC6 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		EE15230104557E3A99132C72E8069B79 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		EEAD9B4FF295C9E0487B426B9968F28B /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
+		EF3F488F1D64EF5E0091BAD4 /* FlatActionSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatActionSheetController.swift; sourceTree = "<group>"; };
 		F03A1A302C6C29F7707D1545C60B509D /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		F29069528FAD306847C75AF601701B09 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		F5F18A014577D0391052EF282FE3049C /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
@@ -543,7 +543,7 @@
 		33EFFD8DCAC35D5E1D73C7A4834ED760 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C4B62E06072E6C40004B5FE46B3890F6 /* ReplaceMe.swift */,
+				EF3F488F1D64EF5E0091BAD4 /* FlatActionSheetController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1080,7 +1080,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18CFF3670856CFB85701C852BA54B6E /* FlatActionSheetController-dummy.m in Sources */,
-				AA0DFD0E40C326F24D35CECB37FFEE8F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1090,6 +1089,7 @@
 			files = (
 				497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */,
 				6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */,
+				EF3F48901D64EF5E0091BAD4 /* FlatActionSheetController.swift in Sources */,
 				6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */,
 				F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */,
 				85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */,
