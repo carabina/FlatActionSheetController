@@ -41,20 +41,13 @@ final class FlatActionSheetController: UIViewController {
     
     // Private elements
     static private var sharedConfiguration = FlatActionSheetConfiguration()
-    private let applicationWindow: UIWindow
+    private let applicationWindow: UIWindow!
     private var actions: [FlatAction]
     private var dimBackgroundView: UIView
     private let tableView: UITableView
     
     init() {
-        guard
-            let appDelegate = UIApplication.sharedApplication().delegate,
-            let appDelegateWindow = appDelegate.window,
-            let window = appDelegateWindow else {
-                assert(false, "Application's window is nil!.")
-        }
-        
-        applicationWindow = window
+        applicationWindow = UIApplication.sharedApplication().delegate?.window!
         actions = []
         dimBackgroundView = UIView()
         tableView = UITableView(frame: applicationWindow.frame, style: UITableViewStyle.Plain)
