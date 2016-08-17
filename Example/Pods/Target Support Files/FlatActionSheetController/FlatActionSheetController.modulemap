@@ -1,0 +1,6 @@
+framework module FlatActionSheetController {
+  umbrella header "FlatActionSheetController-umbrella.h"
+
+  export *
+  module * { export * }
+}
